@@ -9,7 +9,7 @@ A battery-powered smart storage system that monitors and regulates temperature f
 [![Altium](https://img.shields.io/badge/PCB-Altium_Designer-2962FF?style=flat-square&logo=altiumdesigner&logoColor=white)](https://www.altium.com/)
 [![ARM](https://img.shields.io/badge/MCU-ARM_Cortex-0091BD?style=flat-square&logo=arm&logoColor=white)](https://www.arm.com/)
 [![FreeRTOS](https://img.shields.io/badge/RTOS-FreeRTOS-55A630?style=flat-square)](https://www.freertos.org/)
-[![C/C++](https://img.shields.io/badge/Firmware-C%2FC++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)]()
+[![C](https://img.shields.io/badge/Firmware-C%2FC++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)]()
 
 <!-- Replace with your actual board photo -->
 <!-- ![Board Photo](docs/board-photo.jpg) -->
@@ -158,7 +158,7 @@ ambient-medication-storage/
 | PCB | Altium Designer |
 | MCU | Silicon Labs SiWG917 (ARM Cortex + Wi-Fi) |
 | RTOS | FreeRTOS |
-| Languages | C, C++ |
+| Languages | C |
 | Power | TI BQ24075 |
 | Sensor | Sensirion SHT45 |
 | Sourcing | DigiKey, Mouser |
