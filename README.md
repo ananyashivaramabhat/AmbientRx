@@ -38,7 +38,7 @@ Insulin, biologics, and certain antibiotics degrade outside narrow temperature w
 
 ### Custom 4-Layer PCB
 
-Designed end-to-end in **Altium Designer** — schematic capture, placement, routing, Gerber/BOM/CPL generation, component sourcing from DigiKey and Mouser, shipped to fab.
+Designed end-to-end in **Altium Designer** - schematic capture, placement, routing, Gerber/BOM/CPL generation, component sourcing from DigiKey and Mouser, shipped to fab.
 
 ```
 ┌──────────────────────────────────┐
@@ -167,7 +167,7 @@ ambient-medication-storage/
 
 ## Course
 
-ESE5160 — IoT Edge Computing, University of Pennsylvania
+ESE5160 - IoT Edge Computing, University of Pennsylvania
 
 ---
 
