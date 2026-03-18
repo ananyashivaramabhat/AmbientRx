@@ -53,7 +53,7 @@ Designed end-to-end in **Altium Designer** - schematic capture, placement, routi
 
 | Top Layer | Bottom Layer | 3D Render |
 |:---------:|:-----------:|:---------:|
-| ![Top](Top_Layer2.png)) | ![Bottom](hardware/layout/bottom-layer.png) | ![3D](docs/3d-render.png) |
+| ![Top](Top_Layer2.png)) | ![Bottom](Bottom_Layer.png) | ![3D](3D_Render.png) |
 
 ### Design Highlights
 
