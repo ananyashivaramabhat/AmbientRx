@@ -26,7 +26,6 @@ A battery-powered smart medication storage system that monitors pill count, regu
 | <img src="board.jpeg" width="350"/> | <img src="stencil.jpeg" width="350"/> |
 
 </div>
----
 
 ## Why This Exists
 
