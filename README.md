@@ -99,7 +99,9 @@ Copper pours on inner layers spread heat under the SoC and voltage regulators. C
 <p align="justify">
 After receiving the fabricated PCB, the board was brought up systematically — starting with power rails, then verifying each peripheral in isolation before integrating the full firmware stack.
 </p>
-
+<p align="center">
+ <img src="bench_test2.jpeg" width="350"/> 
+</p> 
 ### Power Rail Verification
 
 <p align="justify">
