@@ -153,7 +153,7 @@ The MCU sensor and camera tasks continuously collect data and push it into FreeR
 
 ### MQTT Thread Flow
 
-![MQTT Thread Flow](mqtt-flow.png)
+![MQTT Thread Flow](mqtt_thread.png)
 <p align="center">Figure 2: MQTT task internal state flow</p>
 
 ### MQTT Topic Table
@@ -176,7 +176,7 @@ The Node-RED UI gives the caregiver a single view of all device telemetry. Live 
 ---
 
 ## Repo Structure
-
+```
 ambient-medication-storage/
 ├── README.md
 ├── hardware/
@@ -195,7 +195,7 @@ ambient-medication-storage/
 ├── mqtt-flow.png
 └── block-diagram.png
 
-
+```
 ---
 
 ## Tech Stack
