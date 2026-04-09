@@ -16,8 +16,16 @@ A battery-powered smart medication storage system that monitors pill count, regu
 |:---------:|:-----------:|:---------:|
 | ![Top](Top_Layer2.png) | ![Bottom](Bottom_Layer.png) | ![3D](3D_Render.png) |
 
+
 </div>
 
+<div align="center">
+
+| Board | Stencil |
+|:-----:|:-------:|
+| <img src="board.jpeg" width="350"/> | <img src="stencil.jpeg" width="350"/> |
+
+</div>
 ---
 
 ## Why This Exists
