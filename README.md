@@ -85,7 +85,54 @@ Copper pours on inner layers spread heat under the SoC and voltage regulators. C
 </details>
 
 ---
+---
 
+## Board Bring-Up
+
+<p align="justify">
+After receiving the fabricated PCB, the board was brought up systematically — starting with power rails, then verifying each peripheral in isolation before integrating the full firmware stack.
+</p>
+
+### Power Rail Verification
+
+<p align="justify">
+The first step was confirming all voltage rails were within spec before powering any peripherals. The 3.3 V and 1.8 V rails were probed with a multimeter and oscilloscope to check for noise, ripple, and correct voltage levels. The BQ24075 power path was verified by toggling between USB and battery input and confirming seamless switchover with no dropout.
+</p>
+
+<!-- Add oscilloscope screenshots of power rails here -->
+<!-- ![Power Rails](docs/bring-up/power-rails.png) -->
+
+### Programming and Debug
+
+<p align="justify">
+The SiWG917 was flashed over SWD using a J-Link debugger. Initial bring-up firmware verified the clock configuration, GPIO toggling, and UART debug output before any peripherals were enabled.
+</p>
+
+<!-- Add debugger setup photo here -->
+<!-- ![Debug Setup](docs/bring-up/debug-setup.jpg) -->
+
+### Peripheral Verification
+
+Each peripheral was tested in isolation with minimal firmware before full integration:
+
+| Peripheral | Test | Result |
+|:-----------|:-----|:-------|
+| Sensirion SHT45 | I2C scan, read temp/humidity over serial | |
+| ArduCam | SPI loopback, capture test image | |
+| Cooling fan | PWM sweep 0-100% duty cycle | |
+| BQ24075 | USB charge, battery switchover | |
+| Status LEDs | GPIO toggle all channels | |
+| Wi-Fi | Scan networks, connect to AP | |
+
+<!-- Add bench testing photos here -->
+<!-- ![Bench Setup](docs/bring-up/bench.jpg) -->
+
+### Assembled Board
+
+<!-- Add photo of fully assembled board here -->
+<!-- ![Assembled Board](docs/bring-up/assembled.jpg) -->
+
+---
 ## Firmware
 
 <p align="justify">
