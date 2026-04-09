@@ -104,6 +104,10 @@ After receiving the fabricated PCB, the board was brought up systematically — 
 </p> 
 ### Power Rail Verification
 
+</p>
+<p align="center">
+ <img src="bench_test.jpeg" width="350"/> 
+</p> 
 <p align="justify">
 The first step was confirming all voltage rails were within spec before powering any peripherals. The 3.3 V and 5 V rails were probed with a multimeter and oscilloscope to check for noise, ripple, and correct voltage levels. The BQ24075 power path was verified by toggling between USB and battery input and confirming seamless switchover with no dropout.
 </p>
